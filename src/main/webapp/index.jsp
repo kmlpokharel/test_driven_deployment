@@ -82,6 +82,10 @@
 
 <div class="calculator-container">
     <h1>Simple Calculator V3</h1>
+      <!-- Display error message if it exists -->
+        <c:if test="${not empty errorMessage}">
+            <p style="color: red;">${errorMessage}</p>
+        </c:if>
 
     <form action="calculate" method="get">
         <label for="num1">Number 1:</label>
