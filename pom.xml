@@ -40,6 +40,13 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>net.bull.javamelody</groupId>
+            <artifactId>javamelody-core</artifactId>
+            <version>1.90.0</version> <!-- Adjust the version if needed -->
+        </dependency>
+
+
     </dependencies>
 
     <build>
